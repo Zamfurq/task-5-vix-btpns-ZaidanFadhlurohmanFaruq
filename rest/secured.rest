@@ -1,5 +1,0 @@
-@host = localhost:8080
-// Register User
-GET http://{{host}}/user/admin/photo HTTP/1.1
-content-type: application/json
-authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6NCwidXNlcm5hbWUiOiJtaWNoYWVsamFja3NvbiIsImVtYWlsIjoibWljaGFlbGphY2tzb25AZ21haWwuY29tIiwiZXhwIjoxNjkzNDIxODM0fQ.IG9JOV3KMOdkG6H8wFUgSgqe39wbjAKIeyR-DP9Fm-c

@@ -1,9 +1,0 @@
-@host = localhost:8080
-// Register User
-POST http://{{host}}/user/login HTTP/1.1
-content-type: application/json
-    
-{
-    "email": "michaeljackson@gmail.com",
-    "password": "12345678"
-}
