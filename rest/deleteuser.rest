@@ -1,0 +1,5 @@
+@host = localhost:8080
+@id = 3
+DELETE  http://{{host}}/user/{{id}} HTTP/1.1
+content-type: application/json
+authorization:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MywidXNlcm5hbWUiOiJhYmR1bGhhbGltIiwiZW1haWwiOiJhYmR1bGhhbGltQGdtYWlsLmNvbSIsImV4cCI6MTY5MzQxODQ1NX0.EQ-hA6RFrwUozZY_AKRR7Az692viJ8AC6Zs1faKMrIE

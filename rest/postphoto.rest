@@ -1,0 +1,10 @@
+@host = localhost:8080
+POST http://{{host}}/user/admin/photo HTTP/1.1
+content-type: application/json
+authorization:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MywidXNlcm5hbWUiOiJhYmR1bGhhbGltIiwiZW1haWwiOiJhYmR1bGhhbGltQGdtYWlsLmNvbSIsImV4cCI6MTY5MzM2NTU1OH0.-YVzNONpyyy8gB8Gs-e7Yio1mpvM41yrY3v6Zrpd65A
+
+{
+    "title": "This is photo",
+    "caption": "this is photo",
+    "photoUrl": "https://c02.purpledshub.com/uploads/sites/41/2021/08/mountains-7ddde89.jpg"
+}
